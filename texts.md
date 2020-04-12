@@ -4,7 +4,7 @@ subtitle: The most effective, cutting-edge learning techniques that you can appl
 
 ___________________________
 Digits block: 
-The main problem with education
+
 
 Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the subject material? All you've really learned is how to pass that one test. Once that test is over, the information in your head has outlived its usefulness.
 
@@ -23,8 +23,7 @@ The number of neurons in the human brain
 
 2.1 billion
 The number of adults with low reading proficiency - World Bank, 2017
-
-1,000 terabytes
+The number of adults with low reading proficiency - World Bank, 2017
 Human information storage capacity
 
 500 trillion
