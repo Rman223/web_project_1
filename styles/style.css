@@ -11,7 +11,7 @@
 
 .header {
     display: flex;
-    height: 132vh;
+    height: 86vh;
     min-height: 600px;
     max-height: 756px;
     background-color: #f2f2f2;
@@ -19,7 +19,7 @@
     position: relative;
     /* parameters for the header section */
 }
-.header__logo {
+.logo_place_header {
     width: 154px;
     height: 31px;
     position: absolute;
@@ -84,15 +84,16 @@
     min-width: 784px;
 }
 .two-columns__brief {
-    width: 175px;
+    width: 165px;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
     color: #2f80ed;
-    margin-top: 30px;
+    padding-top: 15px;
+    
 }
-.two-columns__main-text{
-    width: 800px
+.two-columns__main-text {
+    width: 80%;
 }
 .two-columns__paragraph{
     line-height: 34px;
@@ -108,14 +109,14 @@
 .digits {
     margin-bottom: 100px;
 }
-.digits__section-title{
+.section-title {
     
     text-align: center;
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
 }
-.digits__section-subtitle{
+.section-subtitle {
     margin-top: 20px;
     text-align: center;
     line-height: 34px;
@@ -198,10 +199,10 @@
 /* kaufman section */
 
 .kaufman {
-    position: relative;
-    overflow: hidden;
-    background-color: black;
-    z-index: -2;
+   position: relative;
+   background-color: #1f1f1f;
+   overflow: hidden;
+   z-index: -2;
 
 }
 .section-title_theme_dark {
@@ -254,20 +255,21 @@
     position: absolute;
     right: -310px;
     top: 3px;
-    transform: rotate(12deg);
+    
     z-index: -1;
 }
+/*     *****footer section********  */
 
+.footer {
+    background-color: #1f1f1f;
+    position: relative;
+}
 
 .footer__columns {
-    background-color: #000000;
+    
     display: flex;
     justify-content: space-between;
     
-    
-    
-      
-
 }
 .footer__column_content_copyright {
     margin-left: 5%;
@@ -291,7 +293,7 @@
     
     
 }
-.footer__column_content_info {
+.footer__column-content_info {
     width: 225px;
     
     
@@ -338,6 +340,8 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+    padding-left: 3px;
+    
     
 
 }
