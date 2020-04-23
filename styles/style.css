@@ -132,7 +132,7 @@
     flex-wrap: wrap;
     width: 1100px;
     padding: 0;
-    /* margin: 0; */
+    
     
     
 }
@@ -157,7 +157,7 @@
     background-color:#f2f2f2;
     min-height: 800px;
     max-height: 1500px;
-    /* z-index: -2; */
+    
     background-image: url("../images/feynman.png");
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -342,11 +342,7 @@
     
 }
 .footer__social-icon {
-    /* color: white; */
-    /* text-decoration: none; */
-    /* line-height: 30px; */
-    /* font-size: 18px; */
-    /* font-weight: normal; */
+    
     padding-right: 10px;
     
     
