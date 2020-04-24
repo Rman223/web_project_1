@@ -11,9 +11,9 @@
 
 .header {
     display: flex;
-    height: 86vh;
+    height: 100vh;
     min-height: 600px;
-    max-height: 100vh;
+    max-height: 756px;
     background-color: #f2f2f2;
     z-index: -2;
     position: relative;
@@ -82,17 +82,17 @@
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    margin-left: 64px;
+    
     width: 80%;
     min-width: 784px;
 }
 .two-columns__brief {
-    width: 165px;
+    width: 175px;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
     color: #2f80ed;
-    padding-top: 15px;
+    
     
 }
 .two-columns__main-text {
@@ -113,14 +113,14 @@
     margin-bottom: 100px;
 }
 .section-title {
-    
+    margin-bottom: 20px;
     text-align: center;
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
 }
 .section-subtitle {
-    margin-top: 20px;
+    margin-bottom: 60px;
     text-align: center;
     line-height: 34px;
     font-size: 24px;
@@ -137,6 +137,7 @@
     
 }
 .table__cell {
+    margin: 0 0 60px 25px;
     width: 250px;
     list-style: none;
 }
@@ -207,9 +208,10 @@
 
 .kaufman {
    position: relative;
-   background-color: #1f1f1f;
+   background-color: #000000;
    overflow: hidden;
    z-index: -2;
+   
 
 }
 .section-title_theme_dark {
@@ -241,10 +243,11 @@
 }
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
+    margin: 80px 15px 80px 15px;
     width: 200px;
     color: white;
     margin-right: 0;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     list-style: none;
 }
 .table__heading_theme_dark {
@@ -268,7 +271,8 @@
 /*     *****footer section********  */
 
 .footer {
-    background-color: #1f1f1f;
+
+    background-color: #000000;
     position: relative;
 }
 
@@ -311,6 +315,7 @@
     font-weight: bold;
     color: white;
     
+    
 }
 .footer__column-links {
     color: white;
@@ -318,19 +323,24 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    width: 100px;
+    width: 110px;
     padding: 0;
     
     
 }
+.footer__column {
+    width: 250px;
+}
 .footer__column-link {
+    
     text-decoration: none;
     color: white;
 }
+
 .footer__column_content_social {
-    width: 100px;
+    width: 175px;
     margin-right: 5%;
-    top: 220px;
+    top: 100px;
     
 }
 .footer__column-heading_social {
