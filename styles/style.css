@@ -46,9 +46,9 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    z-index: 2;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* ** both lines fixed from review ***  */
 
 }
 .header__link {
@@ -79,10 +79,10 @@
 /* Second section of web page two-colums*/
 .two-columns {
     min-height: 200px;
-    margin-top: 100px;
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
-    
+    /* align-item: center; */
     width: 80%;
     min-width: 784px;
 }
@@ -99,7 +99,7 @@
     width: 80%;
 }
 .two-columns__paragraph{
-    line-height: 34px;
+    line-height: 34px; 
     font-size: 24px;
     font-weight: normal;
 }
@@ -137,7 +137,7 @@
     
 }
 .table__cell {
-    margin: 0 0 60px 25px;
+    margin: 0 25px 60px 0;
     width: 250px;
     list-style: none;
 }
@@ -159,11 +159,12 @@
     min-height: 800px;
     max-height: 1500px;
     
+    
     background-image: url("../images/feynman.png");
     background-repeat: no-repeat;
     background-position-y: bottom;
     position: relative;
-    margin: 0;
+    
 }
 .feynman__title {
     
@@ -189,7 +190,7 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
-    color: black;
+    columns: #000000; /*  fixed */
     position: absolute;
     right: 10px;
     top: 50%;
@@ -212,6 +213,7 @@
    overflow: hidden;
    z-index: -2;
    
+   
 
 }
 .section-title_theme_dark {
@@ -231,23 +233,21 @@
     font-weight: normal;
     color: white;
     text-align: center;
+    margin-bottom: 80px;
     
 }
 .table_theme_dark {
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
+    
     margin-bottom: 90px;
 
 }
-/* including elements with key-value modifiers */
+
 .table__cell_theme_dark {
-    margin: 80px 15px 80px 15px;
+    margin: 0 15px 80px 15px;
     width: 200px;
     color: white;
     margin-right: 0;
-    /* margin-top: 80px; */
+    
     list-style: none;
 }
 .table__heading_theme_dark {
@@ -263,8 +263,8 @@
 }
 .kaufman__triangle {
     position: absolute;
-    right: -310px;
-    top: 3px;
+    right: -280px;
+    top: 1px;
     
     z-index: -1;
 }
@@ -277,7 +277,9 @@
 }
 
 .footer__columns {
-    
+    width: 90%;
+    margin-left: 75px;
+    min-height: 350px;
     display: flex;
     justify-content: space-between;
     
@@ -299,8 +301,8 @@
     font-size: 18px;
     font-weight: normal;
     color: white;
-    padding-top: 200px;
-    margin-bottom: 40px;
+    padding-top: 150px;
+    margin-bottom: 58px;
     
     
 }
