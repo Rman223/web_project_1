@@ -58,12 +58,12 @@
 
 .header__main-illustration {
     position: absolute;
-    bottom: 0;
+    /* margin-bottom: 0; */
     right: 50px;
     width: 765px;
     height: 608px;
     z-index: 1;
-    top: 70px;
+    margin-top: 145px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -110,7 +110,8 @@
 }
 /* Third section of web page digits */
 .digits {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    padding-bottom: 40px;
 }
 .section-title {
     margin-bottom: 20px;
@@ -137,24 +138,29 @@
     
 }
 .table__cell {
-    margin: 0 25px 60px 0;
+    /* margin: 0 25px 60px 0; */
+    margin: auto;
     width: 250px;
+    height: 175px;
+    padding-bottom: 60px;
     list-style: none;
 }
 
 .table__heading {
+    margin-bottom: 20px;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
 }
 .table__text {
+    margin-bottom: 20px;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
 }
 .feynman {
    padding-top: 100px;
-   margin-top: 100px;
+   /* margin-top: 100px; */
     background-color:#f2f2f2;
     min-height: 800px;
     max-height: 1500px;
@@ -233,7 +239,7 @@
     font-weight: normal;
     color: white;
     text-align: center;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     
 }
 .table_theme_dark {
@@ -243,7 +249,9 @@
 }
 
 .table__cell_theme_dark {
-    margin: 0 15px 80px 15px;
+    /* margin: 0 15px 80px 15px; */
+    margin: auto;
+    padding-bottom: 80px;
     width: 200px;
     color: white;
     margin-right: 0;
@@ -277,9 +285,10 @@
 }
 
 .footer__columns {
-    width: 90%;
-    margin-left: 75px;
-    min-height: 350px;
+    /* width: 90%; */
+    /* margin-left: 75px; */
+    /* min-height: 350px; */
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     
@@ -301,8 +310,8 @@
     font-size: 18px;
     font-weight: normal;
     color: white;
-    padding-top: 150px;
-    margin-bottom: 58px;
+    padding-top: 125px;
+    padding-bottom: 58px;
     
     
 }
@@ -340,9 +349,9 @@
 }
 
 .footer__column_content_social {
-    width: 175px;
+    width: 125px;
     margin-right: 5%;
-    top: 100px;
+    /* top: 100px; */
     
 }
 .footer__column-heading_social {
