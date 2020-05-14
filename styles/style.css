@@ -1,14 +1,54 @@
-.page {
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/facebook/_color/facebook_color_white.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/instagram/_color/instagram_color_white.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/oakeley/oakeley.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/rotate/rotate.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/videos/videos.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .page {
     min-width: 1100px;
     /* we don't know how to make mobile versions of websites yet, */
-    /* so here we've set a minimum page width */
+    /* so here we've set a minimum page width *
     max-width: 1600px;
     /* here we've set a maximum page width */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* this ensures that all content is centered on screens wider than 1600px */
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
-}
-
+    /* font-family: 'Helvetica Neue', 'Arial', sans-serif;
+} */
+/* 
 .header {
     display: flex;
     height: 100vh;
@@ -16,10 +56,10 @@
     max-height: 756px;
     background-color: #f2f2f2;
     z-index: -2;
-    position: relative;
+    position: relative; */
     /* parameters for the header section */
-}
-.logo_place_header {
+/* } */
+/* .logo_place_header {
     width: 154px;
     height: 31px;
     position: absolute;
@@ -50,15 +90,14 @@
     margin-bottom: 0;
     /* ** both lines fixed from review ***  */
 
-}
-.header__link {
+/* } */
+/* .header__link {
     text-decoration: none;
     color: #2f80ed;
-}
+} */
 
-.header__main-illustration {
-    /* position: absolute; */
-    /* margin-bottom: 0; */
+/*.header__main-illustration {
+    
     right: 50px;
     width: 765px;
     height: 608px;
@@ -66,8 +105,25 @@
     margin-top: 145px;
 }
 
+.rotate {
+  animation: rotation 20s linear infinite;
+
+
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+
+    }
+} */
+
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+/* .header__square-pic {
     position: absolute;
     top: 64px;
     right: 0;
@@ -75,14 +131,15 @@
     height: 568px;
     width: 568px;
     z-index: 0;
-}
+    transform: rotate(-15deg);
+} */
 /* Second section of web page two-colums*/
-.two-columns {
+/* .two-columns {
     min-height: 200px;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
-    /* align-item: center; */
+    
     width: 80%;
     min-width: 784px;
 }
@@ -107,10 +164,95 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: bold;
+} */
+/* ****Learning Techniques****** */
+
+/* .techniques{
+
+} */
+
+/* .cards {
+    list-style: none;
+    margin: auto;
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+
 }
+.cards__item {
+    width: 240px;
+    text-align: center;
+    
+    padding: 60px 100px 60px 0;
+}
+.cards__item:nth-child(3) { 
+    padding-right: 0; 
+  } 
+  .cards__item:nth-child(4) { 
+    padding-top: 0; 
+  } 
+  .cards__item:nth-child(5) { 
+    padding-top: 0; 
+  } 
+.cards__image {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 40px;
+
+}
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 43px;
+    padding-bottom: 16px;
+
+}
+.cards__description {
+    line-height: 23px;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+} */
+
+/* *************  video sction ted Talks  ************** */
+
+/* .video {
+    
+    background: linear-gradient(to bottom, white 0%, white 75%, #f2f2f2 75%, #f2f2f2 100%);
+
+
+}
+.videos {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    
+
+}
+.video__iframes {
+    margin: 0 auto;
+
+}
+.video__iframe {
+    width: 515px;
+    height: 316px;
+
+} */
+/* ********  Barbara Oakley  *********** */
+/* .oakeley {
+    overflow: hidden;
+    background-color:#f2f2f2;
+} */
 /* Third section of web page digits */
-.digits {
-    /* margin-bottom: 100px; */
+/* .digits {
+    
     padding-bottom: 40px;
 }
 .section-title {
@@ -138,7 +280,7 @@
     
 }
 .table__cell {
-    /* margin: 0 25px 60px 0; */
+    
     margin: auto;
     width: 250px;
     height: 175px;
@@ -160,7 +302,7 @@
 }
 .feynman {
    padding-top: 100px;
-   /* margin-top: 100px; */
+   
     background-color:#f2f2f2;
     min-height: 800px;
     max-height: 1500px;
@@ -171,8 +313,8 @@
     background-position-y: bottom;
     position: relative;
     
-}
-.feynman__title {
+} */
+/* .feynman__title {
     
     
     width: 775px;
@@ -182,9 +324,9 @@
     font-weight: bold;
     text-align: center;
     justify-self: center;
-}
+} */
 
-.feynman__subtitle {
+/* .feynman__subtitle {
     text-align: center;
     line-height: 51px;
     font-size: 36px;
@@ -196,7 +338,7 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
-    color: #000000; /*  fixed */
+    color: #000000; 
     position: absolute;
     right: 10px;
     top: 50%;
@@ -210,14 +352,72 @@
     z-index: -1;
     width: 867px;
     height: 637px;
-}
-/* kaufman section */
+} */
+  /* ********  Khan Section  *********** */
+ /* .khan {
+    background-color:#f2f2f2;
+    padding-top: 105px;
+ } 
+ .khan__container {
+     width: 80%;
+     margin: auto;
+ }
+ .khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+ }
+ .khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 50px;
+ }
+ .khan__quote {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 790px;
+    margin-bottom: 36px;
+ }
+ .khan__quote-aurthor {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .khan__quote-aurthor-subline {
+     line-height: 1.15;
+     font-size: 24px;
+     font-weight: normal;
+     margin-top: 0;
+     margin-bottom: 68px;
+ }
+ .khan__book-container {
+     display: flex;
 
-.kaufman {
+ }
+ .khan__book-pic {
+    width: 620px;
+    height: 608px;
+    padding-right: 68px;
+    margin-bottom: -220px;
+ }
+ .khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2f80ed;
+ } */
+/* ****kaufman section****** */
+
+/* .kaufman {
    position: relative;
    background-color: #000000;
    overflow: hidden;
-   z-index: -2;
+   z-index: 1;
    
    
 
@@ -239,17 +439,17 @@
     font-weight: normal;
     color: white;
     text-align: center;
-    /* margin-bottom: 80px; */
     
-}
-.table_theme_dark {
+    
+} */
+/* .table_theme_dark {
     
     margin-bottom: 90px;
 
 }
 
 .table__cell_theme_dark {
-    /* margin: 0 15px 80px 15px; */
+    
     margin: auto;
     padding-bottom: 80px;
     width: 200px;
@@ -275,25 +475,37 @@
     top: 1px;
     
     z-index: -1;
+} */
+/* **********resource section******** */
+/* .resources {
+    padding-bottom: 217px;
+    padding-top: 50px;
 }
+.resources__logo-zone {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.resources__logo {
+    width: 270px;
+    height: 38px;
+} */
 /*     *****footer section********  */
 
-.footer {
+/* .footer {
 
     background-color: #000000;
     position: relative;
 }
 
 .footer__columns {
-    /* width: 90%; */
-    /* margin-left: 75px; */
-    /* min-height: 350px; */
+    
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
     
 }
-.footer__column_content_copyright {
+/*.footer__column_content_copyright {
     margin-left: 5%;
     flex-basis: 711px;
     
@@ -351,7 +563,7 @@
 .footer__column_content_social {
     width: 125px;
     margin-right: 5%;
-    /* top: 100px; */
+    
     
 }
 .footer__column-heading_social {
@@ -378,7 +590,7 @@
 .instagram_color_white {
     width: 16px;
     height: 16px;
-}
+} */ */
 
 
 
