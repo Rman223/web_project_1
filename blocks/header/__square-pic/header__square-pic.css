@@ -7,4 +7,15 @@
     width: 568px;
     z-index: 0;
     transform: rotate(-15deg);
+    animation: rotation 20s linear infinite;
 }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+  
+    }
+  }
