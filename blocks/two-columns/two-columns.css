@@ -8,7 +8,7 @@
 
 .two-columns {
     min-height: 200px;
-    margin: 100px auto;
+    margin: 0 auto 0;
     display: flex;
     justify-content: space-between;
     /* align-item: center; */

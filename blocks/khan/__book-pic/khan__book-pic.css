@@ -2,5 +2,7 @@
     width: 620px;
     height: 608px;
     padding-right: 68px;
-    margin-bottom: -220px;
+    /* margin-bottom: -220px; */
+    object-fit: cover;
+    object-position: top;
  }
